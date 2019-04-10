@@ -12,14 +12,14 @@ The tested networks are:
   
 - [encoder-decoder model](https://github.com/baldassarreFe/deep-koalarization) with a fusion layer starting from [this Keras implementation](https://github.com/emilwallner/Coloring-greyscale-images/tree/master/Full-version). The fusion layer is built extracting high-level features from  [Inception-ResNet-v2](https://arxiv.org/abs/1602.07261) pre-trained on ImageNet dataset. Instead of using Inception-ResNET-v2 we tested the [Emil Wallner](https://github.com/emilwallner) implementation with [MobileNet](https://arxiv.org/abs/1704.04861) wich is lighter on Emil advice (thanks, Emil!). The strenght of this implementation is that we can do transfer learning with few samples, because the fusion layer is pre-trained
 
--Finally we implemented a model wich combines the previous ones: we used the encoder-decoder model with the fusion layer as generator and the pix2pix discriminator. We conducted on this model different type of preliminary trainings.
+- Finally we implemented a model wich combines the previous ones: we used the encoder-decoder model with the fusion layer as generator and the pix2pix discriminator. We conducted on this model different type of preliminary trainings.
 
 
-# Some results with different training and model conditions
+### Some results with different training and model conditions
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-14-21.png "Preliminary testing results 1")
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-28-35.png "Preliminary testing results 2")
 
-## Implementation details:
+### Implementation details:
 - We used a 11GB GPU (GTX 1080TI); the training on 10 epochs on our models required 11 hours.
 
 
