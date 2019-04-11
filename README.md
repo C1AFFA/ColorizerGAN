@@ -28,7 +28,7 @@ Starting from left : ...,...,...,....,...,....,Ground Thruth
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-42-49.jpg "Preliminary testing results 2")
 
 ### Next steps
-Next, we're going to train the above models with different datasets and different hyperparameters. We are considering of startimg the GAN training with a pretrained generator, like suggested in the [Emil Wallner GAN](https://github.com/emilwallner/Coloring-greyscale-images/tree/master/GAN-version) implementation and in [Jason Antic](https://github.com/jantic) and his [DeOldify](https://github.com/jantic/DeOldify) coloring network. 
+Next, we're going to train the above models with different datasets and different hyperparameters. We are considering of startimg the GAN training with a pretrained generator, like suggested in the [Emil Wallner GAN implementation](https://github.com/emilwallner/Coloring-greyscale-images/tree/master/GAN-version) and in [Jason Antic](https://github.com/jantic) and his [DeOldify](https://github.com/jantic/DeOldify) coloring network. 
 
 ### Implementation details:
 - We used a 11GB GPU (GTX 1080TI); the training on 10 epochs on our models required 11 hours.
