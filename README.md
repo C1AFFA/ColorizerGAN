@@ -15,13 +15,13 @@ The tested networks are:
 - Finally we implemented our own model wich combines the previous ones: we used the encoder-decoder model with the fusion layer as generator and the pix2pix discriminator. We wanted to use the MobileNet knowledge trained on ImageNet to colorize greyscaled photos and make them better throught the Pix2pix's LSGAN discriminator wich take in input the real and the fake photos, combines them and 
 We conducted on this model different type of preliminary trainings.
 
-We tested the trained models on 50 images taken from the place365 dataset not used during the traininig phase, evaluating the results with the simple turing test. 
+We tested the trained models on 50 images taken from the place365 dataset not used during the traininig phase, evaluating the results with a direct turing test. 
 The preliminary results shows that the models are able to recognize and to colorize skies and vegetation. With a longer training we should appreciate improvements.
 
 
 ### Some results with different training and model conditions
-In the images below, we can see the different preliminary experiments on the architectures above with different training parameters:
-starting from left : ...,...,...,....,...,....,Ground Thruth
+In the images below, we can see the different preliminary experiments on the architectures above with different training parameters.
+Starting from left : ...,...,...,....,...,....,Ground Thruth
 
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-0-7.jpg "Preliminary testing results 1")
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-42-49.jpg "Preliminary testing results 2")
