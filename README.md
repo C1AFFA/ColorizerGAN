@@ -14,6 +14,10 @@ The tested networks are:
 
 - Finally we implemented a model wich combines the previous ones: we used the encoder-decoder model with the fusion layer as generator and the pix2pix discriminator. We conducted on this model different type of preliminary trainings.
 
+We tested the trained models on 50 images taken from the place365 dataset not used during the traininig phase, evaluating the results with the simple turing test. 
+The preliminary results shows that the models are able to recognize and to colorize skies and vegetation. With a longer training we should appreciate improvements.
+In the images below, starting from left, we can see:
+(...,...,...,....,...,....,Ground Thruth)
 
 ### Some results with different training and model conditions
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-0-7.jpg "Preliminary testing results 1")
