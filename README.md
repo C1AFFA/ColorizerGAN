@@ -16,8 +16,8 @@ The tested networks are:
 
 
 ### Some results with different training and model conditions
-![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-14-21.png "Preliminary testing results 1")
-![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-28-35.png "Preliminary testing results 2")
+![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-0-7.jpg "Preliminary testing results 1")
+![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-42-49.jpg "Preliminary testing results 2")
 
 ### Implementation details:
 - We used a 11GB GPU (GTX 1080TI); the training on 10 epochs on our models required 11 hours.
