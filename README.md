@@ -31,4 +31,14 @@ Starting from left : ...,...,...,....,...,....,Ground Thruth
 ### Implementation details:
 - We used a 11GB GPU (GTX 1080TI); the training on 10 epochs on our models required 11 hours.
 
+### Citations
+
+@article{deepkoal2017,
+  author          = {Federico Baldassarre, Diego Gonzalez-Morin, Lucas Rodes-Guirao},
+  title           = {Deep-Koalarization: Image Colorization using CNNs and Inception-ResNet-v2},
+  journal         = {ArXiv:1712.03400},
+  url             = {https://arxiv.org/abs/1712.03400},
+  year            = 2017,
+  month           = dec
+}
 
