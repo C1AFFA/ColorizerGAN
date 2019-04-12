@@ -29,16 +29,14 @@ Starting from left :
 - Our model with MSE for the generator on 9000 images from place365
 - Our model with MSE for the generator and different Adam optimizer for discriminator on 9000 images from place365
 - Our model with the above conditions on the fullset trained for 10 epocs
+- Ground truth
 
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-0-7.jpg "Preliminary testing results 1")
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-42-49.jpg "Preliminary testing results 2")
 
-### Next steps
+## Next steps
 Next, we're going to train the above models with different datasets and different hyperparameters. We are considering of startimg the GAN training with a pretrained generator, like suggested in the [Emil Wallner GAN implementation](https://github.com/emilwallner/Coloring-greyscale-images/tree/master/GAN-version) and in [Jason Antic](https://github.com/jantic) and his [DeOldify](https://github.com/jantic/DeOldify) coloring network. 
 
-### Implementation details:
+## Implementation details:
 - We used a 11GB GPU (GTX 1080TI); the training on 10 epochs on our models required 11 hours.
-
-### Citations
-
-
+- We also tried to train the models on a configuration with 4 TeslaP100 working in parallel, but this didn't improve the training time probably due to a functional bottleneck in the GAN train implementation.
