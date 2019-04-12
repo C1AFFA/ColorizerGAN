@@ -1,5 +1,5 @@
 # Generative Adversarial Network Colorizer
-Colorization of large domain greyscaled images with GAN and transfer learning
+#### Colorization of large domain greyscaled images with GAN and transfer learning
 
 The purpose of this experimentation is to test some basic GANs architectures applied to the problem of greyscaled images colorization and merge different approaches in order to obtain the colorization on a large domain of different images. 
 We tested different the different implementations on the place365 dataset wich offers a good start point in terms of variety.
