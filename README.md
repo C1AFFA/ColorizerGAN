@@ -28,7 +28,7 @@ Starting from left :
 - Our model with the above conditions on the fullset trained (10 epocs)
 - Our model with MSE for the generator and different Adam optimizer for discriminator on 9000 images from place365 (50 epochs)
 - Our model with MSE for the generator on 9000 images from place365 (100 epochs)
-- Encoder-decoder with Mobilenet fusion layer generator on 40 samples 
+- Our model with MSE for the generator on just 40 samples (17000 epochs)
 - pix2pix on the full place365
 - Ground truth
 
