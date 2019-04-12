@@ -23,12 +23,13 @@ The preliminary results shows that the models are able to recognize and to color
 ### Some results with different training and model conditions
 In the images below, we can see the different preliminary experiments on the architectures above with different training parameters.
 Starting from left : 
-- pix2pix on the full place365
-- Encoder-decoder with Mobilenet gusion layer generator on 40 samples
+
 - Our model with MAE for the generator on 9000 images from place365
+- Our model with the above conditions on the fullset trained for 10 epocs
 - Our model with MSE for the generator on 9000 images from place365
 - Our model with MSE for the generator and different Adam optimizer for discriminator on 9000 images from place365
-- Our model with the above conditions on the fullset trained for 10 epocs
+- Encoder-decoder with Mobilenet fusion layer generator on 40 samples
+- pix2pix on the full place365
 - Ground truth
 
 ![alt text](https://github.com/C1AFFA/ColorizerGAN/blob/master/RESULTS/TEST-0-7.jpg "Preliminary testing results 1")
